@@ -2,13 +2,13 @@ body{
 	background-color: grey;
 }
 #page{
-	left: 50%;
-	right: 50%;
-	margin-left: 50px;
+	
+	margin-left: 200px;
 	background-color:white;
 	width: 830px;
 	padding: 10px 10px 10px 10px;
 	border-radius: 8px;
+
 
 }
 #panier{
@@ -24,11 +24,12 @@ font-weight: bold;
 #container{
 background-color: #44afee;
 width: 500px;
-height: 600px;
+max-height: 600px;
 display: inline-block;
 padding-left: 20px;
 position: absolute;
 margin-left: 8px;
+overflow-y: scroll;
 }
 .articles{
 	height: 200px;
@@ -37,6 +38,7 @@ margin-left: 8px;
 	border: 2px purple solid;
 	border-radius: 8px;
 	padding:5px;
+	margin-bottom: 10px;
 }
 .ajouter_au_panier{
 	background-color: orange;
@@ -74,6 +76,10 @@ background-color: #ee8811;
 	display: inline-block;
 	margin-top: 20px;
 }
-h3{
+#nom_panier{
 	display: inline-block;
+	position: absolute;
+	margin-top: 35px;
+	margin-left: 5px;
+	color: white;
 }
